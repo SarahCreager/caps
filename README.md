@@ -5,7 +5,7 @@
 Created by Sarah Creager
 
 ## Problem Domain
-Created an application with Event Driven Developement. Includes a module for managing global parcel events, a module for vendor events, and a module for driver events.  
+The first of a 4-Phase build. Created an application with Event Driven Developement. Includes a module for managing global parcel events, a module for vendor events, and a module for driver events.  
 
 ## User Stories
 
@@ -15,11 +15,19 @@ Created an application with Event Driven Developement. Includes a module for man
 * As a driver, I want to alert the system when a package has been delivered.  
 * As a vendor, I want to be notified when my package has been delivered.  
 
+## Developer Stories
+
+* As a developer, I want to use industry standards for managing the state of each package.  
+* As a developer, I want to create an event driven system so that I can write code that happens in response to events, in real time.  
+
 ## Installation
 
-`npm install`  
+1. `npm install`  
+
+2. `npm start`
 
 ## Dependencies
+
  * jest
 
 ## Links
