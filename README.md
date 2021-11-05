@@ -4,8 +4,13 @@
 
 Created by Sarah Creager
 
-## Problem Domain
+## Problem Domain  
+
+### Phase 1
 The first of a 4-Phase build. Created an application with Event Driven Developement. Includes a module for managing global parcel events, a module for vendor events, and a module for driver events.  
+
+### Phase 2
+Rather than using Node Events to manage events, the application has been refactored to use socket.io, allowing pickups and deliveries to be viewed in realtime.
 
 ## User Stories
 
@@ -26,9 +31,18 @@ The first of a 4-Phase build. Created an application with Event Driven Developem
 
 2. `npm start`
 
+*sample .env file:*
+
+``` 
+PORT=3001
+
+```
+
 ## Dependencies
 
  * jest
+ * socket.io
+ * socket.io-client
 
 ## Links
 
@@ -37,3 +51,8 @@ The first of a 4-Phase build. Created an application with Event Driven Developem
 ## UML and Routes
 
 ![UML](./img/uml.png)
+
+## Collaboration
+
+Classmates: Justin Hamerly and Antoine Charette
+[socket.io docs](https://socket.io/docs/v4/)
