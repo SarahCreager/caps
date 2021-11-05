@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/SarahCreager/caps#readme",
   "dependencies": {
-    "jest": "^27.3.1"
+    "jest": "^27.3.1",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2"
   }
 }
